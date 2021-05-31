@@ -56,13 +56,6 @@ async function getToken(email, password) {
   return resp.data;
 }
 
-function getSig(formData) {
-  let sig = '';
-  Object.keys(formData).forEach(function(key) {
-    sig += `${key}=${formData[key]}`;
-  });
-  sig = utils.md5(sig + '62f8ce9f74b12f84c123cc23437a4a32');
-  return sig;
-}
+module.exports = getToken
 
 module.exports = getToken;
