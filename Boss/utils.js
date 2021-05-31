@@ -30,4 +30,4 @@ module.exports = {
       text += possible.charAt(Math.floor(Math.random() * possible.length));
     return text;
   }
-};
+};:
