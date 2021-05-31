@@ -56,6 +56,6 @@ async function getToken(email, password) {
   return resp.data;
 }
 
-module.exports = getToken
+
 
 module.exports = getToken;
