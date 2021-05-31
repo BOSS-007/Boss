@@ -7,4 +7,4 @@ $('#getToken').click(() => {
       let res = e.loc || e.error;
       $('#result').text(res);
     });
-});
+})
